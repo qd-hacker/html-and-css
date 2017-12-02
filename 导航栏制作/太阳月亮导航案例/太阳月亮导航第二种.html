@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- link href="style/月亮第二种.css" type="text/CSS" rel="stylesheet" /> -->
+	<style>
+   a {
+       display: inline-block;
+       text-align: center;
+       text-decoration: none;
+       width: 130px;
+       height: 46px;
+       font:700 18px/46px "宋体","微软雅黑";
+       background-color: skyblue;
+       color: hotpink;
+       text-shadow:2px 2px 1px white;
+	}
+	a:hover {
+     background-color: darkblue;
+     color:#ff0;
+     text-shadow:1px 1px 1px #fff;  
+	}
+	a:focus{
+     background-color: white;
+     color:black;
+     text-shadow:1px 1px 1px #ccc;  
+	}
+	span::before,span::after {
+       display:inline-block;
+       width: 16px;
+       height: 16px;
+       content: " ";
+       background:url(images/sun.png) 0 0 no-repeat;
+	}
+	    a:hover span::before,a:hover span::after {
+		background:url(images/moon.png);
+	}
+	</style>
+</head>
+<body>
+  <a href="#"><span>主页</span></a>
+  <a href="#"><span>日志</span></a>
+  <a href="#"><span>留言</span></a>
+  <a href="#"><span>相册</span></a>
+  <a href="#"><span>更多</span></a>	
+</body>
+</html>
+
+
+
+

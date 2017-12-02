@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五彩垂直导航</title>
+	<style>
+    a {
+    	display: block;
+    	width: 80px;
+    	height: 40px;
+    	text-decoration: none;
+    	font: 700 22px/40px "宋体" ;
+    	text-align: center;
+    }
+    a:first-child {
+    	background-color: green;
+    	color: yellow;
+    }
+    a:nth-child(2){
+    	background-color: purple;
+    	color:green; 
+    }
+    a:nth-child(3){
+    	background-color: blue;
+    	color:white;
+    }
+    a:nth-child(4){
+    	background-color: yellow;
+    	color:red;
+    }
+    a:last-child {
+    	background-color: red;
+    	color:blue; 
+    }
+    a:hover {
+        width: 120px;
+    	height: 40px; 
+    }
+    a:first-child:hover {
+    	background-color:red;
+    }
+    a:nth-child(2):hover {
+    	background-color: yellow;
+    }
+    a:nth-child(3):hover {
+    	background-color: green;
+    }
+    a:nth-child(4):hover {
+    	background-color: purple;
+    }
+    a:nth-child(5):hover {
+    	background-color: green;
+    }
+	</style>
+</head>
+<body>
+    <a href="#">红</a>
+	<a href="#">黄</a>
+	<a href="#">蓝</a>
+	<a href="#">绿</a>
+	<a href="#">紫</a>	
+</body>
+</html>
