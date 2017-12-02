@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>凹凸文字阴影</title>
+	<style>
+	 body {
+	 	background-color: #ccc;
+	 }
+	div {
+		height: 700px;
+		font:700 90px "微软雅黑";
+    	color: #ccc;
+	}
+    p:first-child {
+    	text-shadow: -1px -1px 1px #fff,1px 1px 1px #000;
+    }
+    p:last-child {
+    	text-shadow: 1px 1px 1px #fff,
+    	-1px -1px 1px #000;
+    }
+	</style>
+</head>
+<body>
+<div>
+<p>采菊东篱下</p>	
+<p>悠然见南山</p>
+</div>	
+</body>
+</html>
