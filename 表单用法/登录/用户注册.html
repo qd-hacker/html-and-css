@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+</head>
+<body>
+<h1>用户注册</h1>	
+<hr /><br><br>
+<form action="注册成功.html" method="post" name="用户注册">
+	<label>用户名：<input type="text" placeholder="请输入8~12字符的用户名" maxlength="12" autocomplete name="用户名"></label><br><br>
+	<label>邮&nbsp箱:<input type="email"></label><br><br>
+	<label>密&nbsp码:<input type="password" placeholder="请输入8~12字符的面" maxlength="12"></label><br><br>
+	<input type="radio" name="sex" checked="checked">男
+	<input type="radio" name="sex" >女<br><br>
+	出生日期：<input type="date"><br><br>
+	爱&nbsp好：<input type="checkbox" name="hobby">睡觉
+	           <input type="checkbox" name="hobby">喝酒
+	           <input type="checkbox" name="hobby">王者荣耀<br><br>
+	上传照片： <input type="file" multiple="multiple"><br><br>
+	籍&nbsp贯：<select>
+		       <option>请选择</option>
+		       <option>北京</option>
+		       <option>上海</option>
+	           </select>
+	           <select>
+		       <option>请选择</option>
+		       <option>顺义</option>
+		       <option>朝阳</option>
+	           </select>
+	     <input type="text" placeholder="请选择你的街道" list="jiedao">
+         <datalist id="jiedao">
+            <option >庄桥街道</option>
+            <option >经鼠街道</option>
+            <option >长阳街道</option>
+            <option >广渠街道</option>
+         </datalist><br><br>
+         <input type="submit" value="注册">
+         <input type="reset" value="重置">
+         <input type="button" value="保存">
+
+</form>
+</body>
+</html>

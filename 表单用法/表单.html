@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+</head>
+<body>
+<fieldset>
+<legend>用户信息收集</legend>
+<form action="" method="post" name="用户信息">
+<!-- <form action="" > -->
+	<label>用户名：<input type="text" value="传智播客" /></label><br /><br />
+	<label>密&nbsp;&nbsp;码：<input type="password" maxlength="4" /></label><br />
+	<label for="two">用户名：<input type="text" value="传智播客" /><input type="text" value="传智播客" id="two" /></label><br />
+    性别：<input type="radio" name="sex" checked="checked" />女
+          <input type="radio" name="sex" />男<br />
+    爱好：<input type="checkbox" name="hobby" >鹿晗
+          <input type="checkbox" name="hobby" >胡歌
+          <input type="checkbox" name="hobby" >毛爷爷<br />
+          <input type="button" value="普通按钮"><br />
+          <input type="submit"> &nbsp;
+          <input type="reset" ><br />
+          <input type="file"><br/>
+          <input type="image" src=""><br />
+          <textarea cols="80" rows="4">留言</textarea><br />
+
+         <select >
+         	<option >选择你的城市</option>
+         	<option >北上</option>
+         	<option >北下</option>
+         	<option  selected="selected">北左</option>
+         </select>
+         <select >
+         	<option >选择你的地址</option>
+         	<option >内</option>
+         	<option >外</option>
+         	<option >东左</option>
+         </select><br>
+         邮箱：<input type="email"><br>
+         手机： <input type="tel"><br>
+         数字：<input type="number"><br>
+         url:<input type="url"><br>
+         搜索：<input type="search"><br>
+         滑块：<input type="range"><br>
+         时间：<input type="time"><br>
+         日期 ：<input type="date"><br>
+         日期时间:<input type="datetime"><br>
+         月份：<input type="month"><br>
+         星期：<input type="week"><br>
+         颜色：<input type="color"><br> 
+         <!-- 用户名：<input type="text" placeholder="用户名" autofocus="autofous"> --><br><!-- placeholder占位符，autofocus自动获取焦点光标 -->
+         上传文件<input type="file" multiple="multiple"><br><!-- multiple上传多个文件 -->
+         用户名：<input type="text" autocomplete="on" name="记住密码"><br>
+         <input type="submit"><br>
+         </form>
+         </fieldset>
+         <input type="text" value="你最喜欢的水果" list="star">
+         <datalist id="star">
+         	<option >苹果</option>
+         	<option >火龙果</option>
+         	<option >果果</option>
+         	<option >龙眼</option>
+         </datalist>
+         
+</body>
+</html>

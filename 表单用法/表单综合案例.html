@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单综合案例</title>
+</head>
+<body>
+<fieldset>
+<legend>学生档案</legend><br>
+	<form action="" method="post" name="学生档案">
+	姓&nbsp;名：<input type="text" name="姓名" autocomplete="on" placeholder="请输入名字" autofocus="autofocus"><br><br>
+	<label>手机号：<input type="tel" required></label><br><br>
+	<label>邮&nbsp;箱：<input type="email" ></label>	<br><br>
+	<label>所属学院：<input type="text" list="tec" placeholder="请选择所属学院"><br><br>
+    <datalist id="tec">
+     <option>java学院</option>
+     <option>php学院</option>
+     <option>前端学院</option>
+     <option>ui学院</option>	
+    </datalist>
+    出生日期：<input type="date"><br><br>
+    成&nbsp;&nbsp;绩：<input type="number"><br><br>
+    毕业时间：<input type="date"><br><br>
+     <input type="submit">
+     <input type="reset">
+	</label>
+	</form>
+</fieldset>	
+</body>
+</html>

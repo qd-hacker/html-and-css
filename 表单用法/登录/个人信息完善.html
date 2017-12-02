@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息完善</title>
+</head>
+<body>
+<fieldset>
+<legend>个人信息完善</legend><br>
+<form action="登录成功页面.html" method="post" name="个人信息">
+<label>个人年龄：<input type="number" placeholder="请在此输入年龄"></label><br><br>
+<label>手机号码：<input type="tel" name="手机号" placeholder="请在此输入手机号" autocomplete="on" required></label><br><br>
+<label>个人网站：<input type="url" placeholder="请在此输入个人网站" required></label><br><br>
+<label>开发方向：<input type="text" list="kaifa" placeholder="请选择技能方向" required></label>
+<datalist id="kaifa">
+	<option>前端开发</option>
+	<option>后端开发</option>
+	<option>游戏开发</option>
+	<option>软件开发</option>
+	<option>UI设计</option>
+</datalist><br><br>
+毕业时间：<input type="date"><br><br>
+<input type="submit" value="保存">
+<input type="reset">
+</form>	
+</fieldset>
+</body>
+</html>
